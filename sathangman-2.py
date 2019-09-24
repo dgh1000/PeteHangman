@@ -1,19 +1,29 @@
 import random
 import json
 
-# Set Win Streak and High Score Counters
-def runGame():
+def initialize()
     # Import and Parse JSON word dictionaries into a single dict
-    # Define accedptable letters for user input
     json1 = open ("sat-words/dictionary.json")
     dict1 = json.load(json1)
     json2 = open ("sat-words/dictionary2.json")
     dict2 = json.load(json2)
-    dict = dict1 + dict2
-    letters = "abcdefghijklmnopqrstuvwxyz"
-    guess_list = ""
-    # Set the winstreak to 0,
+    return  (dict1 + dict2)
+
+
+def runGame2():
+    # Start program
+    di = initialize()
     winstreak = 0
+    letters = "abcdefghijklmnopqrstuvwxyz"
+    # Start hangman game
+    while True:
+        pass
+    # Define acceptable letters for user input
+    # Set Win Streak
+    # Set Guess List to empty string
+    # guess_list = ""
+
+def runGame():
     print("")
     print("This ain't baseball, it's SAT Hangman. Six strikes and you're out.")
     print("")
@@ -24,7 +34,7 @@ def runGame():
         # Grab a random selection from dictionary
         # Define variables for the word, part of speech,
         # and definition of the random selection
-        selection = random.choice(dict)
+        selection = random.choice(di)
         word = selection["word"].lower()
         pos = selection["type"]
         definition = selection["definition"]
