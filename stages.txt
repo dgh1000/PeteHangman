@@ -1,0 +1,51 @@
+
+Writing a loop, step by step. For each step, implement the minimum
+shown here, but also add some print() statements to see what you
+are doing and show any other information you're curious about.
+
+Stage 1. 
+
+    Important state: none
+
+    Loop action: pick a random number from 0 to 9
+    and print it.
+
+    Terminating condition: when the random number
+    is a certain value.
+
+Stage 2:
+
+    Important state: none
+
+    Loop action: request input from user
+
+    Terminating condition: when input has a certain
+    value.
+
+Stage 3:
+
+    Important state
+
+        "the word to match": wordToMatch
+
+    Loop action: request input from user
+
+    Termining condition: when input matches or is contained
+    in wordToMatch
+
+
+Stage 4:
+
+    Important state
+
+        wordToMatch
+
+        list of prior entries: priorEntries
+
+    Loop action: request input from user
+
+    Terminating condition: any condition you want to put on
+    priorEntries or the user's input. Maybe when there are too
+    many entries, or all the entries match, or too many non-matching
+    entries. Take your pick.
+    
