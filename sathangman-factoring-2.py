@@ -90,7 +90,6 @@ def runHangman():
             showStrikes(strikes)
             showGuesses(guesses)
             guess_tup = takeGuess(letters, guesses)
-            print(guess_tup)
             g = guess_tup[0]
             guesses = guess_tup[1]
             if g in w:
