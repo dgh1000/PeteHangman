@@ -1,4 +1,4 @@
-lxml==3.5.0
+lxml==4.6.2
 meld==3.14.1
 pycurl==7.19.5.3
 pygobject==3.18.2
